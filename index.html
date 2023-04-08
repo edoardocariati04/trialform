@@ -1,0 +1,175 @@
+<!DOCTYPE html> <html> 
+    <head> 
+    
+    <title>Edoardo Cariati | Portfolio</title> 
+
+    <style> 
+    body { 
+        background-color: #ffffff; 
+        margin: 0; 
+        padding: 0; 
+        font-family: Arial, sans-serif; 
+        font-size: 16px; 
+        line-height: 1.5; 
+    }
+	header {
+		background-color: #1a1a1a;
+		color: #ffffff;
+		padding: 20px 10px;
+		text-align: center;
+	}
+	
+	footer {
+		background-color: #1a1a1a;
+		color: #ffffff;
+		padding: 20px 10px;
+		text-align: center;
+	}
+	
+	.container {
+		width: 960px;
+		margin: 0 auto;
+		padding: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		text-align: center;
+	}
+	
+	.about-me-box {
+		background-color: #f2f2f2;
+		border: 1px solid #e6e6e6;
+		padding: 20px;
+		flex-basis: 100%;
+		margin-bottom: 20px;
+	}
+	
+	.experiences-box {
+		background-color: #f2f2f2;
+		border: 1px solid #e6e6e6;
+		padding: 20px;
+		flex-basis: calc(100% - 20px);
+		margin-bottom: 20px;
+	}
+	
+	.contact-box {
+        background-color: #f2f2f2;
+		border: 1px solid #e6e6e6;
+		padding: 20px;
+		flex-basis: calc(100% - 20px);
+		margin-bottom: 20px;
+	}
+	
+	h1 {
+		font-size: 36px;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	
+	p {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	
+	label {
+		display: block;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	
+	input,
+	textarea {
+		display: block;
+		width: 100%;
+		padding: 10px;
+		border: 1px solid #e6e6e6;
+		border-radius: 3px;
+		margin-bottom: 20px;
+	}
+	
+	button {
+		background-color: #1a1a1a;
+		color: #ffffff;
+		padding: 10px 20px;
+		border: none;
+		border-radius: 3px;
+		font-weight: bold;
+		cursor: pointer;
+	}
+	
+	button:hover {
+		background-color: #ffffff;
+		color: #1a1a1a;
+	}
+</style>
+
+ <!-- Required meta tags -->
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head> 
+<body> 
+    <header> 
+        <h1>Edoardo Cariati</h1> 
+        <p>Student at LSE in Economics & Politics</p> 
+    </header>
+<div class="container">
+	<div class="about-me-box">
+		<h2>About Me</h2>
+		<p>I am a student at the London School of Economics and Political Science, studying Economics and Politics. My goal is to become a private equity professional and work in the finance industry. In my free time, I enjoy reading books about business and investing.</p>
+	</div>
+	
+	<div class="experiences-box">
+		<h2>Experiences</h2>
+		<p>During my time at LSE, I have had the opportunity to intern at several finance companies, including Goldman Sachs and Blackstone. These experiences have given me valuable skills and knowledge about the finance industry.</p>
+	</div>
+	
+	<
+    <div class="container mt-5">
+        <h1>Contact Me!</h1>
+        <form class="row g-3" action="https://formsubmit.co/edoardocariati16@gmail.com" method="POST">
+          <!-- Honeypot -->
+          <input type="text" name="_honey" style="display: none;">
+
+          <!-- Disable Captcha -->
+          <input type="hidden" name="_captcha" value="false">
+
+          <input type="hidden" name="_next" value="https://haydn5.github.io/formsubmitdemo/success.html" >
+
+          <div class="col-md-6">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" name="name" id="firstName" required>
+          </div>
+          <div class="col-md-6">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" required>
+          </div>
+          <div class="col-md-8">
+            <label for="emailInfo" class="form-label">E-mail</label>
+            <input type="email" class="form-control" name="email" id="emailInfo" required>
+          </div>
+          <div class="col-md-4">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="+1 (415) 867-5309">
+          </div>
+          <div class="col-md-12">
+            <label for="comments" class="form-label">Comments, questions?</label>
+            <textarea class="form-control" id="comments" name="comments,&nbsp;questions" rows="3" required></textarea>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+    </div>
+
+</div>
+
+<footer>
+	<p>You can email me at </p>
+	<p>e [dot] cariati [at] lse [dot] ac [dot] uk</p>
+	<p>&copy; 2023 Edoardo Cariati. All rights reserved.</p></footer>
+</body> </html>
